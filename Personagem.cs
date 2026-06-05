@@ -1,3 +1,5 @@
+using System;
+
 public class Personagem
 {
     public string Nome { get; set; }
@@ -15,4 +17,3 @@ public class Personagem
     {
         Console.WriteLine(Nome + " atacou causando " + Ataque + " de dano.");
     }
-}
